@@ -1,0 +1,3 @@
+[submodule "widgets/octostatus"]
+	path = widgets/octostatus
+	url = https://github.com/bkeepers/dashing-octostatus
