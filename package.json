@@ -1,0 +1,24 @@
+{
+  "name": "test-repo-status-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"precommit": "exit 1",
+	"prepush": "exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lallysmbc/test-repo-status-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lallysmbc/test-repo-status-test/issues"
+  },
+  "homepage": "https://github.com/lallysmbc/test-repo-status-test#readme",
+  "devDependencies": {
+    "husky": "^0.14.3"
+  }
+}
